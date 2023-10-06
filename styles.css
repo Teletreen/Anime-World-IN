@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.web-page{
+    background-color: #DAFFFB;
+}
+
+.c-img{
+    height: 100vh;
+    border-radius: 70px;
+}
+
+.slide-img{
+    margin: 30px;
+}
+
+.top-bar{
+    display: flex;
+    background-color: #176B87;
+    margin: 0;
+    padding: 3px;
+}
+
+.web-name{
+    margin: 6px;
+    color: #DAFFFB;
+}
+
+.web-des{
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 6px;
+    color: #DAFFFB;
+}
+
+.card-download{
+    margin: 20px;
+    width: 30vw;
+}
+
+.heading-downloads{
+    margin: 20px;
+}
+
+.downloads{
+    display: flex;
+}
