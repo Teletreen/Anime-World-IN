@@ -7,11 +7,6 @@
     background-color: #DAFFFB;
 }
 
-.c-img{
-    height: 100vh;
-    border-radius: 70px;
-}
-
 .slide-img{
     margin: 30px;
 }
@@ -20,19 +15,12 @@
     display: flex;
     background-color: #176B87;
     margin: 0;
-    padding: 3px;
+    padding: 1vh;
 }
 
 .web-name{
-    margin: 6px;
     color: #DAFFFB;
-}
-
-.web-des{
-    margin-top: 15px;
-    margin-left: 25px;
-    margin-right: 6px;
-    color: #DAFFFB;
+    margin-top: 2vh;
 }
 
 .card-download{
@@ -46,4 +34,28 @@
 
 .downloads{
     display: flex;
+}
+
+.top-img{
+    width: 8vh;
+    height: 8vh;
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 475px) {
+    .card-download{
+        width: 90%;
+    }
+    .downloads{
+        display: contents;
+    }
+    .heading-downloads{
+        margin-left: 70px;
+    }
+    .slide-img{
+        visibility: hidden;
+        height: 0px;
+    }
 }
