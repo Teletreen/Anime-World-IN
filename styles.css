@@ -48,6 +48,10 @@
     height: 30vh;
 }
 
+.card-img-top-rad{
+    height: 50vh;
+}
+
 @media only screen and (max-width: 475px) {
     .card-download{
         width: 90%;
